@@ -26,7 +26,7 @@ namespace FileautoReaname
             int SUM_realexportNUM = 0;
             Console.Write("輸入Excel位置(檔案名稱:報稅名稱.xlsx):");
             ExcelfilePath = Console.ReadLine();
-            Console.Write("輸入sheet號碼(1.翔富 2.扶恩 3.宸維):");
+            Console.Write("輸入sheet號碼(1.name1 2.name2 3.name3):");
             ExcelSheetNum = int.Parse(Console.ReadLine());
             Console.Write("輸入原始檔案位置:");
             orignatefilePath = Console.ReadLine();
